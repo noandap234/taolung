@@ -13,10 +13,10 @@
 // อัปเดตเกม = สร้าง Release ใหม่ใน repo ของเกม ตั้ง tag เป็นเลขสูงขึ้น (v1.0.1) แนบไฟล์ใหม่ — ไม่ต้องแก้ไฟล์นี้
 
 const GAMES_DATA = [
-  {
+    {
     id: 'TaoLungRun',
     title: 'TaoLung Run',
-    desc: 'วิ่งสู่เส้นชัย ให้คนดู TikTok Live ช่วยกันดันไปหน้า–ถอยหลัง',
+    desc: 'วิ่งสู่เส้นชัย',
     repo: 'noandap234/TLRun',
     asset: 'runner.exe',
     exe: 'runner.exe',
@@ -26,7 +26,7 @@ const GAMES_DATA = [
   {
     id: 'TaoLungRace',
     title: 'TaoLung Race',
-    desc: 'แข่งรถ ให้คนดู TikTok Live ส่งของขวัญช่วยรถตัวเองวิ่งนำ',
+    desc: 'แข่งรถ',
     repo: 'noandap234/tlrack',
     asset: 'race.exe',
     exe: 'race.exe',
@@ -34,6 +34,7 @@ const GAMES_DATA = [
     icon: 'icon.png',
   },
 ];
+
 
 // ตัวโปรแกรม Launcher เอง (Release ล่าสุดต้องแนบ Setup และ tag = เลขเวอร์ชันของโปรแกรม)
 const LAUNCHER_DATA = { repo: 'noandap234/taolung', asset: 'TaoLungLauncher-Setup.exe' };
