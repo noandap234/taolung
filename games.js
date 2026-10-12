@@ -31,7 +31,7 @@ const GAMES_DATA = [
     asset: 'race.exe',
     exe: 'race.exe',
     needsBridge: true,
-    icon: 'logo_icon_256.png',
+    icon: 'icon.png'.png',
   },
 ];
 
