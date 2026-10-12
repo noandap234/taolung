@@ -21,7 +21,7 @@ const GAMES_DATA = [
     asset: 'runner.exe',
     exe: 'runner.exe',
     needsBridge: true,
-    icon: '',
+    icon: 'icon.png',
   },
   {
     id: 'TaoLungRace',
