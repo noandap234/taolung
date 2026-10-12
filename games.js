@@ -21,7 +21,7 @@ const GAMES_DATA = [
     asset: 'runner.exe',
     exe: 'runner.exe',
     needsBridge: true,
-    icon: 'icon.png',
+    icon: 'https://github.com/noandap234/TLRun/releases/download/v1.0.1/icon.png',
   },
   {
     id: 'TaoLungRace',
@@ -31,7 +31,7 @@ const GAMES_DATA = [
     asset: 'race.exe',
     exe: 'race.exe',
     needsBridge: true,
-    icon: 'icon.png',
+    icon: 'https://github.com/noandap234/tlrack/releases/download/v1.0.2/icon.png',
   },
 ];
 
