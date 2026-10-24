@@ -33,17 +33,7 @@ const GAMES_DATA = [
     needsBridge: true,
     icon: 'icon.png',
   },
-  {
-    id: 'KiraeveRoad',
-    title: 'Kiraeve Road',
-    desc: 'วิ่งหลบรถเข้าเส้นชัย',
-    repo: 'noandap234/KiraeveRoad',
-    asset: 'road.exe',
-    exe: 'road.exe',
-    needsBridge: true,
-    icon: 'icon.png',
-  },
-];
+
 
 
 // ตัวโปรแกรม Launcher เอง (Release ล่าสุดต้องแนบ Setup และ tag = เลขเวอร์ชันของโปรแกรม)
